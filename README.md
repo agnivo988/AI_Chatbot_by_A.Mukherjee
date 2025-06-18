@@ -1,4 +1,4 @@
-# 💬 AI Chatbot — Powered by Gemini API
+# 💬 AI Chatbot — Powered by Gemini API(V1.0)
 
 Welcome to my AI Chatbot project! This is a full-stack web application built with HTML, CSS, JavaScript, and Node.js using the Google Gemini API. It allows users to chat with an intelligent virtual assistant directly from the browser.
 
