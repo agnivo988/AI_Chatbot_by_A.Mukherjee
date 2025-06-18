@@ -8,7 +8,9 @@ const getBotReply = require('./Chatbot');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://https://ai-chatbot-by-a-mukherjee.onrender.com/'
+}));
 app.use(express.json());
 
 // Serve static frontend
