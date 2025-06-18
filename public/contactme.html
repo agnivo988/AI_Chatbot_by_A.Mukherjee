@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f0f0, #d0eaff);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      width: 350px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    h2 {
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 6px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #0077cc;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Student Profile</h2>
+    <ul id="info-list">
+      <li><strong>Name:</strong> Agniva Mukherjee</li>
+      <li><strong>Branch:</strong> Information Technology</li>
+      <li><strong>email:</strong> agnivamukherjee977@gmail.com</li>
+      <li><strong>Hobbies:</strong> Coding, Reading, Music</li>
+      <li><strong>Skills:</strong> C, C++, Python, JavaScript</li>
+    </ul>
+    <button onclick="showAlert()">Show Welcome Message</button>
+  </div>
+
+  <script>
+    function showAlert() {
+      alert("Thank you for visiting the website 👾");
+    }
+  </script>
+
+</body>
+</html>
